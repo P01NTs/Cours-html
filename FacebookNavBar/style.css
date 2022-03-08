@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(234, 243, 255);
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    color:rgb(104, 106, 119);
+}
+
+img{
+    width:30px;
+}
+section{
+    background-color: #fff;
+    display:flex;
+    justify-content:space-between;
+    height: 70px;
+    align-items:center;
+    box-shadow: 0 -5px 10px black;
+}
+.search{    
+    display:flex;
+    align-items:center;
+    border-radius: 50px;
+    background-color:#e5e6eb;
+    width:230px;
+    margin:10px;
+}
+.search > i{
+    font-size:25px;
+    margin-left: 10px;
+}
+
+.search > input{
+    border: none;
+    background-color:transparent;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;    
+}
+.fa-solid{
+    font-size: 35px;
+}
+.fa-brands{
+    font-size:58px;
+    color:dodgerblue;
+}
+.profile{
+    display:flex;
+}
+
+
+.navBarGauche{
+    display: flex;
+    margin-left: 30px;
+}
+.navigate{
+    width:610px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}   
+.navigate > i {
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.navigate > i:hover{
+    color: dodgerblue;
+    transform: scale(1.2);
+    
+}
+.navigate > i:{
+    background-color: rgb(255, 0, 0);
+}
+.profile{
+    align-items:center;
+}
+.profile > img{
+    width:45px;
+    border-radius:50px;
+}
+.profile > p {
+    font-size:22px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fa-message{
+    margin-right:30px
+}
